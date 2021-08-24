@@ -1,0 +1,5 @@
+How to Launch ArenaKRTI.world in gazebo
+1. Copy folder 'ArenaKRTI' ke path ~/PX4-Autopilot/Tools/sitl_gazebo/models
+2. Ubah nama 'ArenaKRTI_filemodif.world' menjadi 'ArenaKRTI.world'
+3. Pindahkan 'ArenaKRTI.world' ke path ~/PX4-Autopilot/Tools/sitl_gazebo/worlds
+4. launch world dengan command make px4_sitl gazebo___ArenaKRTI
